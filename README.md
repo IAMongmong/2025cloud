@@ -23,3 +23,8 @@ docker build -t nopupu/2025cloud:tagname .
 ```
 docker run -it --rm nopupu/2025cloud:tagname
 ```
+## 📦 目前專案自動化產生 Container Image 的邏輯及 Tag 的選擇邏輯
+產生 Container Image：
+![43cf1962-0e8c-41dc-b735-0ea35a381d27](https://github.com/user-attachments/assets/1fcc82a7-ad0e-4b6a-beac-caa33fc185bc)
+Tag 的選擇：
+使用 commit 的 hash 作為 image tag
